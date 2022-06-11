@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #221E1F;
+}
+
+#app {
+  width: 100%;
+}
+
+#app ul,
+#app li {
+  list-style: none;
+}
+
+#app *,
+#app *::before,
+#app *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#app a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.font-18 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.font-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-32 {
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ma-0 {
+  margin: 0;
+}
+
+.my-8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.pa-0 {
+  padding: 0;
+}
+
+.py-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.pt-24 {
+  padding-top: 24px;
+}
+
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.py-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.py-24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.v-divider {
+  display: block;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  max-width: 100%;
+  height: 0;
+  max-height: 0;
+  border: solid;
+  border-width: thin 0 0 0;
+  -webkit-transition: inherit;
+  transition: inherit;
+  color: lightgray;
+}
+/*# sourceMappingURL=layout.css.map */
