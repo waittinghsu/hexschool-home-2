@@ -37,16 +37,19 @@
 .main section.section-1 {
   padding-top: 188px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .main section.section-1 .description {
   color: #56C4C5;
+  z-index: 1;
 }
 
 .main section.section-1 h1 {
   margin: 8px 0 0 0;
   font-size: 48px;
   line-height: 70px;
+  z-index: 1;
 }
 
 .main section.section-1 h2 {
@@ -54,6 +57,7 @@
   font-size: 20px;
   line-height: 29px;
   font-weight: normal;
+  z-index: 1;
 }
 
 .main section.contact {
@@ -102,7 +106,7 @@
 
 .main section.role .role-group {
   padding-top: 48px;
-  margin: 0 -16px;
+  margin: 0 -8px;
 }
 
 .main section.role .role-group .role-item {
@@ -140,7 +144,7 @@
 
 .main section.quick .func-row {
   width: calc(100% / 2);
-  margin: 0 -16px;
+  margin: 0 -8px;
   margin-right: auto;
 }
 
@@ -272,6 +276,7 @@
 
 .header .logo {
   height: 40px;
+  z-index: 1;
 }
 
 .header .plan-btn {
@@ -281,6 +286,7 @@
   border-radius: 22px;
   opacity: 1;
   color: white;
+  z-index: 1;
 }
 
 footer {

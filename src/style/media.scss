@@ -1,21 +1,175 @@
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
     .container {
         max-width: 768px;
         margin: 0 auto;
-        padding: 0 16px;
+        padding: 0 24px;
     }
+
+    .main {
+        background: none;
+
+        section {
+            padding-top: 60px;
+        }
+
+        .header {
+            border-bottom: 3px solid orange;
+        }
+
+        section.section-1 {
+            padding-top: 32px;
+        }
+
+        &-home {
+            background: transparent url('../img/bg_home_sm.svg') center no-repeat padding-box;
+
+            &-img {
+                position: unset;
+                align-self: center;
+
+                width: 304px;
+                height: 305px;
+            }
+        }
+
+        section.contact {
+            padding-top: 60px
+        }
+
+        section.role {
+            .role-group {
+                .role-item {
+                    width: calc(100% / 2);
+                }
+            }
+        }
+
+        section.quick {
+            .quick-block {
+                margin: 0 -8px;
+            }
+
+            .func-row {
+                width: calc(100%);
+                padding: 0;
+                margin: 0 -8px 0 0;
+
+                .func {
+                    &-item {
+                        padding: 0 8px;
+                        padding-right: 8px;
+                        padding-bottom: 28px;
+                    }
+                }
+            }
+
+            .func-info {
+                width: 100%;
+
+                .func-info-block {
+                    text-align: center;
+
+                    a {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+
+        section.evaluation {
+            .evaluation-img {
+                top: 80px;
+                left: -80px;
+            }
+
+            .eval {
+                &-col {
+                    width: calc(100%);
+                    padding: 0 8px;
+                    padding-top: 78px;
+                }
+            }
+        }
+    }
+
 }
 
 @media (max-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 390px;
         margin: 0 auto;
-        padding: 0 16px;
+        padding: 0 20px;
     }
-}
 
-@media (max-width: 576px) {
-    .color-class {
-        color: red;
+    .main {
+        .header {
+            border-bottom: 3px solid orange;
+
+            .logo {
+                height: 24px
+            }
+        }
+
+        section.contact {
+            .contact-row {
+                .card {
+                    width: 100%;
+                    padding-bottom: 24px;
+                }
+            }
+        }
+
+        section.role {
+            .role-group {
+                .role-item {
+                    width: calc(100%);
+                }
+            }
+        }
+
+        section.quick {
+            .quick-block {
+                margin: 0 -8px;
+            }
+
+            .func-row {
+                .func {
+                    &-item {
+                        width: 100%;
+                        padding: 0 52px;
+                        padding-right: 52px;
+                        padding-bottom: 28px;
+                    }
+                }
+            }
+        }
+
+        section.evaluation {
+            .evaluation-img {
+                top: 80px;
+                left: -80px;
+            }
+
+            .eval {
+                &-col {
+                    width: calc(100%);
+                    padding: 0 8px;
+                    padding-top: 78px;
+                }
+            }
+        }
+    }
+    footer {
+        margin-top: 60px;
+        background: transparent url('../img/footer_sm.svg') center 0% no-repeat padding-box;
+        background-size: 100%;
+    
+        .footer-group {
+            padding-top: 292px;
+            .font-sm-24 {
+                font-size: 24px;
+                line-height: 32px;
+            }
+        }
     }
 }

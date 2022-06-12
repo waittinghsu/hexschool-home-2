@@ -2,7 +2,7 @@
     position: relative;
     background: transparent url('../img/bg_home.svg') top right no-repeat padding-box;
     height: 100vh;
-
+    
     &-home-img {
         position: absolute;
         width: 532px;
@@ -36,15 +36,18 @@
     section.section-1 {
         padding-top: 188px;
         font-weight: bold;
+        z-index: 1;
 
         .description {
             color: #56C4C5;
+            z-index: 1;
         }
 
         h1 {
             margin: 8px 0 0 0;
             font-size: 48px;
             line-height: 70px;
+            z-index: 1;
         }
 
         h2 {
@@ -52,6 +55,7 @@
             font-size: 20px;
             line-height: 29px;
             font-weight: normal;
+            z-index: 1
         }
 
     }
@@ -106,7 +110,7 @@
 
         .role-group {
             padding-top: 48px;
-            margin: 0 -16px;
+            margin: 0 -8px;
 
             .role-item {
                 padding: 0 8px;
@@ -145,7 +149,7 @@
     section.quick {
         .func-row {
             width: calc(100% / 2);
-            margin: 0 -16px;
+            margin: 0 -8px;
             margin-right: auto;
 
             .func {
@@ -284,6 +288,7 @@
 .header {
     .logo {
         height: 40px;
+        z-index: 1;
     }
 
     .plan-btn {
@@ -292,7 +297,8 @@
         background: #FF5D50 0% 0% no-repeat padding-box;
         border-radius: 22px;
         opacity: 1;
-        color: white
+        color: white;
+        z-index: 1;
     }
 }
 
